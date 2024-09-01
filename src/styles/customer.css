@@ -1,0 +1,30 @@
+.customer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customer-content h1 {
+  width: 500px;
+  color: blueviolet;
+  font-size: 45px;
+}
+
+.customer-content p {
+  width: 400px;
+  line-height: 1.5;
+  font-size: 15px;
+  color: gray;
+}
+
+.customer-content button {
+  margin-top: 30px;
+  border: none;
+  border-radius: 16px;
+  padding: 16px 32px;
+  background-color: blueviolet;
+  color: #fff;
+  font-size: 21px;
+  cursor: pointer;
+}

@@ -1,0 +1,36 @@
+.updata {
+  margin-top: 100px;
+}
+
+.updata-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.updata-content {
+  width: 330px;
+  line-height: 1.5;
+  color: rgb(40, 39, 41);
+  font-size: 15px;
+}
+
+label {
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 40px;
+}
+
+input {
+  border: none;
+}
+
+.updata-btn {
+  padding: 12px 25px;
+  margin-left: 80px;
+  border: none;
+  border-radius: 16px;
+  background-color: blueviolet;
+  color: #fff;
+  cursor: pointer;
+}

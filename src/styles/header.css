@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+span {
+  margin: 50px;
+  font-size: 25px;
+  color: grey;
+  cursor: pointer;
+}
+
+span:hover {
+  color: sandybrown;
+}

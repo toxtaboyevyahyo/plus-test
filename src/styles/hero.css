@@ -1,0 +1,47 @@
+.hero-img {
+  width: 200px;
+  height: 200px;
+}
+
+.hero-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.hero-content h5 {
+  color: grey;
+}
+
+.hero-content h5::before {
+  background-image: url(/assets/star.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 70px;
+  width: 40px;
+  height: 40px;
+  background-color: blue;
+}
+
+.hero-content h4 {
+  color: rgb(31, 12, 49);
+  font-size: 21px;
+}
+
+.hero-content h3 {
+  color: rgb(54, 53, 53);
+}
+
+.hero-box h1 {
+  font-size: 50px;
+}
+
+.hero-box p {
+  width: 500px;
+  line-height: 1.5;
+  color: gray;
+  font-size: 18px;
+  font-weight: 500;
+}
